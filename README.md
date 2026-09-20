@@ -4,7 +4,6 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-0x7m7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0x7m7)
 [![Cantina](https://img.shields.io/badge/Cantina-abood071-6C63FF?style=for-the-badge)](https://cantina.xyz/u/abood071)
-[![Immunefi](https://img.shields.io/badge/Immunefi-abood071-0E7CFE?style=for-the-badge)](https://immunefi.com/profile/abood071)
 
 ---
 
@@ -30,7 +29,6 @@ I specialize in deep manual analysis of Solidity smart contracts, with a strong 
 
 - **GitHub** — [github.com/0x7m7](https://github.com/0x7m7)
 - **Cantina** — [cantina.xyz/u/abood071](https://cantina.xyz/u/abood071)
-- **Immunefi** — [immunefi.com/profile/abood071](https://immunefi.com/profile/abood071)
 
 ---
 
