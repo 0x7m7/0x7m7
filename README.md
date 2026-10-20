@@ -36,11 +36,5 @@ Systems-focused developer working toward production-level C++ and security resea
 - Analysis: clang-tidy, cppcheck
 - Environment: Linux, Git
 
-## Currently
-- Practicing: manual auditing of parser and engine-shell source
-- Studying: V8 internals, memory allocator design, optimizer output
-- Building: performance-oriented C++ projects (list as they land)
-- Contributing: getting first commits into open-source AI infrastructure
-
 ## Contact
 - GitHub: [@0x7m7](https://github.com/0x7m7)
