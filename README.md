@@ -1,39 +1,41 @@
 # Hi, I'm 0x7m7
 
-C++ • AI Infrastructure • Memory Security Research
+Rust • Systems Engineering • Infrastructure
 
-Systems-focused developer working toward production-level C++ and security research on widely deployed software.
+Systems-focused developer working on production-level Rust, low-level systems code, and the infrastructure that runs it.
 
 ## Focus Areas
 
-### Systems & Modern C++
-- Modern C++ (17/20/23) with strong ownership and memory-safety discipline
-- Memory layouts, cache behavior, move semantics, optimizer-level reasoning
-- Toolchain: GCC/Clang, sanitizers (ASan/UBSan/TSan), GDB, CMake/Ninja
+### Systems & Modern Rust
+- Idiomatic Rust with strong ownership, lifetime, and type-level design
+- Zero-cost abstractions, allocation behavior, and data-layout reasoning
+- Unsafe Rust done carefully: audited, documented, and justified
+- Toolchain: rustc, clippy, rustfmt, Miri, GDB, Cargo workspaces
 
-### AI Infrastructure
-- Inference runtimes, KV-cache and memory management, quantization paths
-- High-performance execution on consumer hardware, not just datacenter GPUs
-- Active targets: vLLM, llama.cpp, ONNX Runtime-class codebases
+### Infrastructure
+- Networking, async runtimes (tokio), and high-throughput services
+- Concurrency, lock-free patterns, and shared-nothing designs
+- Observability, profiling, and performance engineering on real workloads
+- Deployed as containers/services — built for reliability, not demos
 
-### Security Research
-- Manual source auditing of parsers and JS engine shells (d8-style targets)
-- Bug classes: use-after-free, buffer overflow, OOB access, type confusion
-- Objective: CVEs, coordinated disclosure, and 0-day work in major engines
+### Active Targets
+- tokio, hyper, axum-class network services
+- Data planes, proxies, and storage-adjacent tooling
+- CLI and daemon tooling for Linux systems
 
 ## Working Principles
-- Security and performance are design constraints, not afterthoughts
-- Test against sanitizers before shipping; audit line by line
-- contributions over credentials — learn in public, verify with results
+- Performance and reliability are design constraints, not afterthoughts
+- Clippy-clean, fuzz-tested, and benchmarked before shipping
+- Contributions over credentials — learn in public, verify with results
 
 ## Languages
-![C++](https://img.shields.io/badge/C%2B%2B-23-00599C?logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-stable-DEA584?logo=rust&logoColor=white)
 
 ## Toolchain
-- Compilers: GCC, Clang (with sanitizer builds)
-- Debugging: GDB, valgrind, ASan/UBSan/TSan
-- Build: CMake + Ninja, ccache
-- Analysis: clang-tidy, cppcheck
+- Language: Rust (stable + nightly when justified)
+- Analysis: clippy, Miri, cargo-fuzz, criterion benchmarks
+- Debugging: GDB, lldb, valgrind, perf
+- Build: Cargo, just, Make (for orchestration)
 - Environment: Linux, Git
 
 ## Contact
